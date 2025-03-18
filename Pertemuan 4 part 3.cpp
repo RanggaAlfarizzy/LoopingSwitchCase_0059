@@ -30,6 +30,14 @@ int main() {
                 cout << "Luas Persegi Panjang : "
                      << LuasPersegiPanjang(panjang, lebar) << endl;
                 break;
+                case 2:
+                cout << "Menghitung Luas Lingkaran" << endl;
+                cout << "Masukkan Jejari : ";
+                cin >> jejari;
+                cout << "Luas Lingkaran : "
+                     << LuasLingkaran(jejari) << endl;
+                cout << endl;
+                break;
     
-
+}
 }
