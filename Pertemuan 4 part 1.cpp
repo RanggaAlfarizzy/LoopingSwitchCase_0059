@@ -14,4 +14,12 @@ int main(){
 cout << "Nilai i terakhir : " << i << endl;
 cout << endl;
 
+//Perulangan For untuk pencacah turun
+cout << "Perulangan For pencacah Turun" << endl;
+for (i = 4; i >= 0; i--){
+    cout << "Nilai i : " << i 
+      << " Lari keliling lapangan" << endl;
+}
+
+cout << "Nilai i terakhir : " << i << endl;
 }
